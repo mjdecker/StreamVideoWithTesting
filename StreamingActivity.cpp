@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 
     // verify options
     if (argc != 2) {
-        std::cerr << "Usage: " << argv[0] << "<file>" << '\n';
+        std::cerr << "Usage: " << argv[0] << " <file>" << '\n';
         return 1;
     }
 

@@ -92,7 +92,7 @@ std::string Account::report() const {
 
     // total time
     int time = totalHours + totalMinutes / 60;
-    output << "Total Time: " << time;
+    output << "Total Time: " << time << ':';
     time = totalMinutes % 60;
     output << time << '\n';
 
